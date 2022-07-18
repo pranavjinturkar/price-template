@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+/*Globals----------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background {
+    background-color: #60a9ff;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+/* Image */
+img {
+    width: 70%;
+    margin-bottom: 25px;
+}
+
+.heading {
+    color: #888;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.all-info {
+    color: #48aaff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 0;
+    line-height: 1.5;
+}
+
+.all-info div {
+    margin: 10px;
+    border-top: 1px solid #e1f1ff;
+    padding: 8px;
+    /* border-bottom: 1px solid #48aaff; */
+
+}
+
+/* Common Button */
+.primary {
+    background-color: #48aaff;
+    color: white;
+}
+
+.basic {
+    background-color: white;
+    color: #48aaff;
+    transition: background-color 200ms ease-in-out;
+
+}
+
+.basic:hover {
+    background-color: rgb(239, 246, 255);
+
+}
+
+/* Buttons */
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #48aaff;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    max-width: 960px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+/* Price Section */
+.price {
+    color: #016ff9;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #48aaff;
+    
+    
+    
+} */
+/* White Box */
+.white-box {
+    background-color: white;
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    margin: 110px auto;
+    /* height: 500px; */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box {
+    margin: 20px 50px;
+}
+.info {
+    border-bottom: 1px solid #e1f1ff;
+    
+}
+
+.vertical-line {
+    width: 3px;
+    height: 425px;
+    background: #e1f1ff;
+    display: flex;
+    align-self: center;
+}
